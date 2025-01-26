@@ -15,6 +15,8 @@ void start_fight(Character& player, Character& enemy) {
     
     } else if (option == 'h') {
       player.heal();
+    } else {
+      cout << "Invalid Input\n";
     }
 
     if (player.health <= 0) {
