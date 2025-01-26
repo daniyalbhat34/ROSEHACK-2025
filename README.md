@@ -1,5 +1,15 @@
-Turn Based RPG for Rose Hack 2025.
+# rosehack2025
 
-We include classes Character, Player, Enemy, and Moves. Moves includes Attack and Healing classes, which are the actions a Character can take.
+## Names:
+Daniyal Bhat
 
-Contributors: Daniel, Nathan, Haroon
+Nathan Ha
+
+Haroon Ahamed
+
+## Info:
+This is all our second hackathon.
+
+We chose to implement a simple fight game
+
+## Game:
