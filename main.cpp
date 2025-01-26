@@ -1,8 +1,10 @@
-using namespace std;
 #include <iostream>
 #include "fight.h"
 #include "character.h"
 #include "player.h"
+#include "weapons.h"
+
+using namespace std;
 
 int main() {
 
