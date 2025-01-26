@@ -1,5 +1,7 @@
 #pragma once
 
+#include <iostream>
+
 #include "weapons.h"
 
 constexpr int MAX_HEALTH = 100;
@@ -10,7 +12,6 @@ public:
   int stamina;
   int health;
   Weapon weapon;
-  
 
 public:
   virtual void attack(Character& enemy) = 0;
