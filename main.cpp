@@ -17,5 +17,5 @@ int main() {
     Weapon weapon2(10);
     Player player(weapon1);
     Player enemy(weapon2);
-    start_fight(weapon,1, weapon2);
+    start_fight(player, enemy);
 }

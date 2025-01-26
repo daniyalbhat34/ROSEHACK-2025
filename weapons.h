@@ -1,6 +1,6 @@
 #pragma once
 
-struct Weapons {
+struct Weapon {
     int damage;
-    Weapons(int damage) : damage(damage) {}
+    Weapon(int damage) : damage(damage) {}
 };
