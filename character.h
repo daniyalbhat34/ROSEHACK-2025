@@ -2,14 +2,21 @@
 
 #include "weapons.h"
 
+constexpr int MAX_HEALTH = 100;
+constexpr int MAX_STAMINA = 100;
+
 class Character {
-private:
+public:
   int stamina;
   int health;
   Weapon weapon;
+  
 
 public:
   virtual void attack(Character& enemy) = 0;
   virtual void heal() = 0;
-  Character(int stamina, int health, Weapon weapon) : stamina(stamina), health(health), weapon(weapon) {};
+  Character(Weapon weapon) : weapon(weapon) {
+    health = MAX_HEALTH;
+    stamina = MAX_STAMINA;
+  };
 };
