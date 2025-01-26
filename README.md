@@ -5,7 +5,7 @@ Daniyal Bhat
 
 Nathan Ha
 
-Haroon 
+Haroon Ahamed
 
 ## Info:
 This is all our second hackathon.
