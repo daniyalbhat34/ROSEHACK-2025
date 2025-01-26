@@ -16,6 +16,25 @@ int main() {
     Weapon weapon1(20);
     Weapon weapon2(10);
     Player player(weapon1);
-    Player enemy(weapon2);
-    start_fight(player, enemy);
+
+    int num_fights = 0;
+
+
+    cout << "How many enemies would you like to fight?\n";
+    bool not_valid = true;
+
+    while (not_valid) {
+        cin >> num_fights;
+        if (num_fights <= 0) {
+            cout << "Please enter a valid number\n";
+        } else {
+            not_valid = false;
+        }
+    }
+
+    for (int i = 0; i < num_fights; i++) {
+        Player enemy(weapon2);
+        start_fight(player, enemy);
+        cout << "\n\n";
+    }
 }
